@@ -1,4 +1,4 @@
-setwd("C:/Users/xx/Desktop/ergasiaD2")            
+setwd("dataset.path")            
 wine.data2<- read.csv("wine2.txt", header = T)
 wine.data<-wine.data2[,c(2:14)]
 summary(wine.data)
